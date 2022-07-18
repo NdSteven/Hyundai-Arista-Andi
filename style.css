@@ -6,10 +6,48 @@
 body{
     display: flex;
     justify-content: center;
+    background-image: url("versi 3.png");
+    background-size: 100%;
+    height: 5650px;
 }
 
-.background{
+header{
+    background-color: #003082;
     width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 14px yellow;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo-silver-hyundai{
+    position: absolute;
+    top: 70px;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-silver-hyundai img{
+    width: 60%;
+    height: 80%;
+    margin-left: 20px;
+}
+
+.logo-hyundai-putih{
+    width: 300px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.logo-arista-putih{
+    width: 200px;
+    margin-right: 100px;
 }
 
 .kotak-kartu {
@@ -18,7 +56,7 @@ body{
     width: 500px;
     height: 250px;
     perspective: 1000px;
-    top: 170px;
+    top: 165px;
 }
 
 .kartu {
@@ -29,6 +67,7 @@ body{
 }
 
 .kotak-kartu:hover .kartu {
+    cursor: pointer;
     transform: rotateY(180deg);
 }
 
@@ -39,7 +78,7 @@ body{
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(5px);
     border: 1px solid rgba(255,255,255,0.2);
     box-shadow: 0 2px 10px rgba(255,255,255,0.7);
@@ -63,7 +102,7 @@ body{
 }
 
 .logo-aja{
-    width: 50px;
+    width: 60px;
 }
 
 .kiri{
